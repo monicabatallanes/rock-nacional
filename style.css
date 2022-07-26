@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #e74c3c, #000000); 
+}
+
+@media (min-width: 760px) and (max-width: 920px) {
+    .navbar-nav{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        right: 400px;
+    }
+    
+}
+
+.nav-link{
+    color: black;
+    font-size: medium;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.img-intro{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.intro{
+    position: absolute;
+    top: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffe6;
+    text-align: justify;
+    font-weight: bold;
+}
+
+h1, h2{
+    margin: 40px;
+    text-shadow: 5px 4px 5px rgba(248,248,33,0.86);
+}
+
+.text{
+    color: #ffffe6;
+    text-align: justify;
+}
+
+.img-rock{
+    width: 100%;
+    height: fit-content;
+    border-radius: 15px;
+}
+
+hr{
+    width: 100%;
+    color: azure;
+}
+
+@media (max-width: 560px) {
+    
+    .img-rock{
+        width: 90%;
+        height: auto;
+    }
+    .img-rock-sonico{
+        padding: 5px;
+        width: 80%;
+        height: auto;
+    }
+}
+
+.text-area{
+    width: 400px;
+    height: 200px;
+}
+
+.form-label{
+    color: azure;
+}
+
+.img-size{
+    border-radius: 10px;
+}
+
+.img-Fito{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.rock-sonico{
+    display: flex;
+    justify-content: center;
+}
+
+.img-detail{
+    border-radius: 30px;
+    width: 350px;
+    height: 350px;
+    
+}
+
+h3{
+    margin: 30px;
+    text-shadow: 5px 4px 5px #ffffe6;
+}
+
+@media (max-width: 560px) {
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .barrial{
+        width: 100%;
+    }
+    .img-size{
+        width: 300px;
+        height: 300px;
+    }
+    .img-Fito{
+        width: 75%;
+        height: auto;
+    }
+    
+}
